@@ -1,0 +1,52 @@
+.project-container{
+    width: 75%;
+    margin: auto;
+
+}
+
+#projects{
+    margin-top: 4rem;
+    margin-bottom: 20rem;
+}
+
+.card{
+    
+    margin-top: 11rem;
+    
+}
+
+.arrow-wrapper{
+    display: flex;
+    justify-content: end;
+    margin-right: -7rem;
+}
+
+.arrow1{
+    margin-top: 3rem;
+    width: 40px;
+    height: 40px;
+   
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+    
+}
+
+@media screen and (max-width:1400px) {
+    .arrow1{
+        display: none;
+    }
+}
